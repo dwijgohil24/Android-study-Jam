@@ -33,6 +33,7 @@ fun main() {
 }
 
 ----------------------------------------------------------------------------------------------------------------------------
+
 // variable declaration using "val"
 
 fun main() {
@@ -125,3 +126,15 @@ repeat(3){
   println("Hello")
   }
   }
+  
+ -------------------------------------------------------------------------------------------------------------------------------------------
+  
+ // user defined function
+  
+fun main() {
+    println("The square of 9 is : ${getSquare(9)}")
+}
+
+fun getSquare(number: Int): Int {
+    return number * number
+}
