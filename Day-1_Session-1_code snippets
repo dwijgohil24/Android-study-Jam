@@ -1,0 +1,127 @@
+Link to Kotlin Playground website - https://developer.android.com/training/kotlinplayground
+
+// Prewritten code in kotlin playground.
+
+fun main() {
+    println("Hello, world!")
+}
+---------------------------------------------------------------------------------------------------------------------
+// println vs print statement code:
+
+fun main() {
+    println("Happy Birthday!")
+    println("Dwij")
+    println("You are 19!")
+}
+
+---------------------------------------------------------------------------------------------------------------------
+// code after changing the println statement with print statement
+
+fun main() {
+    print("Happy Birthday!")
+    print("Dwij")
+    print("You are 19!")
+}
+
+------------------------------------------------------------------------------------------------------------------------
+// variable declaration using "var"
+
+fun main() {
+    var dsc=1
+    dsc=2
+    println("value of variable dsc is $dsc")
+}
+
+----------------------------------------------------------------------------------------------------------------------------
+// variable declaration using "val"
+
+fun main() {
+    val dsc=1
+    dsc=2
+    println("value of variable dsc is $dsc")
+}
+
+-----------------------------------------------------------------------------------------------------------------------------
+// IF conditional satement 
+
+fun main(){
+if (20 > 18){
+    println("20 is greater than 18")
+}
+}
+
+-----------------------------------------------------------------------------------------------------------------------------
+// IF-ELSE conditional statement
+
+fun main(){
+val time = 20
+if (time < 18) {
+  println("Good day.")
+} else {
+  println("Good evening.")
+}
+}
+
+----------------------------------------------------------------------------------------------------------------------------------
+// WHEN conditional statement
+
+fun main(){
+val day = 4
+
+val result = when (day) {
+  1 -> "Monday"
+  2 -> "Tuesday"
+  3 -> "Wednesday"
+  4 -> "Thursday"
+  5 -> "Friday"
+  6 -> "Saturday"
+  7 -> "Sunday"
+  else -> "Invalid day."
+}
+println(result)
+}
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+// creating arrays in kotlin
+
+fun main(){
+val cars = arrayOf("Volvo", "BMW", "Ford", "Mazda")
+}
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+// accessing element of array
+
+fun main(){
+val cars = arrayOf("Volvo", "BMW", "Ford", "Mazda")
+println(cars[0])
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+// FOR loop
+
+fun main(){
+val cars = arrayOf("Volvo", "BMW", "Ford", "Mazda")
+for (x in cars) {
+  println(x)
+}
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+// While loop
+
+fun main(){
+var i = 0
+while (i < 5) {
+  println(i)
+  i++
+}
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+// repeat loop
+
+fun main(){
+repeat(3){
+  println("Hello")
+  }
+  }
